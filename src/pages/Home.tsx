@@ -204,6 +204,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== IMAGE BAND — human trust anchor ===== */}
+      <section className="container-content pt-12 sm:pt-16">
+        <div data-reveal className="relative overflow-hidden rounded-3xl">
+          <img
+            src={asset('/images/couple-home.jpg')}
+            alt="A retired couple reviewing their Medicare options at home"
+            loading="lazy"
+            className="h-[260px] w-full object-cover object-center sm:h-[440px]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/25 to-transparent" />
+          <div className="absolute bottom-0 left-0 p-6 sm:p-10">
+            <p className="max-w-lg font-display text-2xl font-bold leading-tight text-white sm:text-4xl">
+              Real guidance from a licensed agent who knows you by name.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ===== HOW IT WORKS — airy columns (no boxed grid) ===== */}
       <section id="how-it-works" className="container-content scroll-mt-24 py-16 sm:py-28">
         <div data-reveal>
